@@ -3,11 +3,18 @@ body {
   font-size: 12px;
   max-width: 960px;
   margin: auto;
+  padding: 20px; /* Add some padding around the border */
+}
+
+.container {
+  border: 2px solid lightgray; /* Add border around the resume */
+  padding: 20px; /* Add some padding inside the border */
+  border-radius: 10px; /* Optional: rounded corners for the border */
 }
 
 h1 {
   font-size: 3em;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 
